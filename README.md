@@ -13,11 +13,11 @@ cargo install cargo-ndk
 cargo ndk -t <target_name> -o <project_name>/app/src/main/jniLibs build
 ```
 
-3. Open this project in Android Studio and press run button.
+3. Open this project in Android Studio and press run button. (DO NOT UPDATE ANY LIBRARY'S VERSIONS EVEN IF ANDROID STUDIO SUGGESTS)
 
 Now you can run your bevy app on your phone!
 
-For more instructions, please refer to [bevy's offcial procedure for android app](https://github.com/bevyengine/bevy/blob/latest/examples/README.md#setup)
+For more instructions, please refer to [bevy's offcial instructions for android app](https://github.com/bevyengine/bevy/blob/latest/examples/README.md#setup)
 
 # License
 ### Creative Commons 3.0 Attribution License for app\src\main\assets\android_robot.png.
