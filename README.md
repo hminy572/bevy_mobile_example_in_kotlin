@@ -21,6 +21,8 @@ For more instructions, please refer to [bevy's offcial instructions for android 
 
 # License
 Creative Commons 3.0 Attribution License for app\src\main\assets\android_robot.png.
+
 ic_launcher icon images are under Apatch-2.0 License.
+
 Other than that, Apatch-2.0 license.
 
