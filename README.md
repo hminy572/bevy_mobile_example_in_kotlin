@@ -20,5 +20,5 @@ Now you can run your bevy app on your phone!
 For more instructions, please refer to [bevy's offcial procedure for android app](https://github.com/bevyengine/bevy/blob/latest/examples/README.md#setup)
 
 # License
-Creative Commons 3.0 Attribution License for app\src\main\assets\android_robot.png 
-Other than that, Apatch-2.0
+Creative Commons 3.0 Attribution License for app\src\main\assets\android_robot.png.
+Other than that, Apatch-2.0.
