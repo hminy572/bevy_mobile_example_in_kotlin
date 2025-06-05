@@ -2,19 +2,23 @@
 
 # How to use
 
-First, run these commands below
+1. run these commands below
 ```
 rustup target add aarch64-linux-android
 cargo install cargo-ndk
 ```
 
-Second, generate jniLib for gradle
+2. generate jniLibs for gradle
 ```
 cargo ndk -t <target_name> -o <project_name>/app/src/main/jniLibs build
 ```
 
-Third, open this project in Android Studio and press run button.
+3. open this project in Android Studio and press run button.
 
 Now you can run your bevy app on your phone!
 
 For more instructions, please refer to [bevy's offcial procedure for android app](https://github.com/bevyengine/bevy/blob/latest/examples/README.md#setup)
+
+# License
+Creative Commons 3.0 Attribution License for app\src\main\assets\android_robot.png 
+Other than that, Apatch-2.0
