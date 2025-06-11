@@ -1,6 +1,6 @@
 # Bevy Mobile Example in Kotlin
 
-# How to use
+## How to use
 
 1. Run these commands below
 ```
@@ -12,8 +12,21 @@ cargo install cargo-ndk
 ```
 cargo ndk -t <target_name> -o <project_name>/app/src/main/jniLibs build
 ```
+3. Update sourceSet path for assets and android-res in app/build.gradle.kts. (e.g. "../../../../assets", "../../../../assets/android-res")
+```
+android {
+    // ...
 
-3. Open this project in Android Studio and press run button. (DO NOT UPDATE ANY LIBRARY'S VERSIONS EVEN IF ANDROID STUDIO SUGGESTS)
+    sourceSets {
+        getByName("main") {
+            assets.setSrcDirs(listOf("../../../../assets"))
+            res.setSrcDirs(listOf("../../../../assets/android-res"))
+        }
+    }
+}
+```
+
+4. Open this project in Android Studio and press run button. (DO NOT UPDATE ANY LIBRARY'S VERSIONS EVEN IF ANDROID STUDIO SUGGESTS)
 
 Now you can run your bevy app on your phone!
 
