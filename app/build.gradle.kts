@@ -54,6 +54,12 @@ android {
     packaging {
         resources.excludes.add("lib/*/libdummy.so")
     }
+    sourceSets {
+        getByName("main") {
+            assets.setSrcDirs(listOf("path/to/assets")) // set your assets dir
+            res.setSrcDirs(listOf("path/to/android-res")) // set your android-res dir
+        }
+    }
 }
 
 dependencies {
