@@ -11,6 +11,8 @@ cargo install cargo-ndk
 2. Generate jniLibs for gradle
 ```
 cargo ndk -t <target_name> -o <project_name>/app/src/main/jniLibs build
+e.g.
+cargo ndk -t arm64-v8a -o C:\Users\username\bevy\bevy_mobile_example_in_kotlin\app\src\main\jniLibs build
 ```
 3. Update sourceSet path for assets and android-res in app/build.gradle.kts. (e.g. "../../../../assets", "../../../../assets/android-res")
 ```
